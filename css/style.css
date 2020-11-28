@@ -300,7 +300,7 @@
   padding: 1rem;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #E8EAEE;
+  background-color: #e8eaee;
 }
 
 .card .buttons i {
@@ -310,7 +310,9 @@
 /*Section 2 : About Me*/
 /*Color #131231*/
 .section-2 {
+  background: url(/assets/img/color-shape.png);
   background-color: white;
+  background-repeat: no-repeat;
   height: auto;
   padding-bottom: 2rem;
 }
@@ -359,7 +361,7 @@
 }
 
 .section-2 .box-text .text-content-about {
-  font-family: 'Quicksand',sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
   color: #000000;
   font-size: 2rem;
@@ -384,7 +386,7 @@
 }
 
 .about-heading-row h1 {
-  font-family: 'Quicksand',sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
   font-size: 4rem;
   color: #545e6f;
@@ -567,7 +569,7 @@
 .footer-container {
   text-align: center;
   padding: 3rem;
-  background: url(../../../hamburger-menu/assets/img/1.png);
+  background: url(/assets/img/1.png);
   background-color: #131231;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -586,7 +588,7 @@
 4. Text Color == #4e565d
 5.#f8f0fc*/
 .section4 {
-  background: url(../../hamburger-menu/assets/img/3.png);
+  background: url(/assets/img/3.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
