@@ -114,93 +114,140 @@
     <!-- Section 3 : Projects -->
     <section class="section3" id="projects">
         <h1 class="section-title-about">My Projects.</h1>
-        <div class="project-container">            
-            <!-- Card-1 -->
-            <div class="card" style="align-self: flex-start;">
-                <div class="image-container-card">
-                    <img src="assets/img/ProjectThumbnails/semi1.jpg" alt="">
-                </div>
-                <div class="image-caption">
-                    <h3 class="project-title">SemiColon.</h3>
-                    <p class="project-description">Beautiful blog application with markdown support and superfast loading! Written in ReactJS with Chakra-UI and Node-Express API
-                    </p>
-                    
-                </div>
-                <div class="buttons">
-                    <span><a href="https://github.com/OmkarK45/blog-app" target="_blank"><i class="fab fa-github"></i></a></span>
-                    <span><a href="https://semicolon-blog.netlify.app/" target="_blank"><i class="fal fa-external-link"></i></a></span>    
-                </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="card">
-                <div class="image-container-card">
-                    <img src="assets/img/ProjectThumbnails/tw1.jpg" alt="">
-                </div>
-                <div class="image-caption">
-                    <h3 class="project-title">InTask.</h3>
-                    <p class="project-description">List down your important work and track it in intask. Project is under construction! Written in Express, EJS and Node with MongoDB.</p>
+        
+        <div class="w3-bar w3-black">
+            <button class=" btn-small" onclick="switchTab('neog')">NeoG Camp</button>
+            <button class=" btn-small" onclick="switchTab('personal')">Personal Projects</button>
+          </div>
+
+        <div id="neog" class="box">
+            <div class="project-container">
+                <div class="card" style="align-self: flex-start;">
+                    <div class="image-container-card">
+                        <img src="assets/img/ProjectThumbnails/neog1.jpg" alt="">
+                    </div>
+                    <div class="image-caption">
+                        <h3 class="project-title">GTA V Quiz in NodeJS</h3>
+                        <p class="project-description">First of the NeoG Camp projects. A 10 question quiz on Grand Theft Auto Five written in JavaScript ES6 Syntax. Hosted on Repl.it
+                            Play and test your knowledge!
+                        </p>
+                        
+                    </div>
                     <div class="buttons">
-                        <span><a href="https://github.com/OmkarK45/TaskWise-Get-work-done" target="_blank"><i class="fab fa-github"></i></a></span>
-                        <span><a href="https://taskwise.herokuapp.com/" target="_blank"> <i class="fal fa-external-link"></i></a></span>    
+                        <span><a href="https://github.com/OmkarK45/NeoG-Submissions/tree/master/L0-W1-A1" target="_blank"><i class="fab fa-github"></i></a></span>
+                        <span><a href="https://repl.it/@OmkarK45/NeoG-Submissions-1" target="_blank"><i class="fal fa-external-link"></i></a></span>    
                     </div>
                 </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="card">
-                <div class="image-container-card">
-                    <img src="assets/img/ProjectThumbnails/typer.jpg" alt="">
-                </div>
-                <div class="image-caption">
-                    <h3 class="project-title">TypR.</h3>
-                    <p class="project-description">Find your typing speed. Typer is built using JavaScript w/ Option to share your score on social media. </p>
-                    <div class="buttons">
-                        <span><a href="https://github.com/OmkarK45/JavaScript-Projects/tree/master/TypeR" target="_blank"><i class="fab fa-github"></i></a></span>
-                        <span><a href="https://projects-js.netlify.app/typer/" target="_blank"> <i class="fal fa-external-link"></i></a></span>    
+
+                <div class="card" style="align-self: flex-start;">
+                    <div class="image-container-card">
+                        <img src="assets/img/ProjectThumbnails/neog2.jpg" alt="">
                     </div>
-                </div>
-            </div>
-            <!-- Card -4 -->
-            <div class="card" style="align-self: flex-start;">
-                <div class="image-container-card">
-                    <img src="assets/img/ProjectThumbnails/project 3.jpg" alt="">
-                </div>
-                <div class="image-caption">
-                    <h3 class="project-title">COVID-19 Tracker.</h3>
-                    <p class="project-description">Realtime dashboard showing number of patients affected by CoronaVirus. Updates hourly ! Built with JavaScript, Bootstrap 4 and COVID-19 API</p>
-                   
-                </div>
-                <div class="buttons">
-                    <span><a href="https://github.com/OmkarK45/covid19dashboard"><i class="fab fa-github"></i></a></span>
-                    <span><a href="https://dashcovid19.netlify.app/"><i class="fal fa-external-link"></i></a></span>    
-                </div>
-            </div>
-            <div class="card">
-                <div class="image-container-card">
-                    <img src="assets/img/ProjectThumbnails/project 1.jpg" alt="">
-                </div>
-                <div class="image-caption">
-                    <h3 class="project-title">CampeR.</h3>
-                    <p class="project-description">Find and Explore different camping sites near you. Just signup and you are good to go ! Made with NodeJS, MongoDB and Passport</p>
-                    <div class="buttons">
-                        <span><a href="http://yelpcamp-india2020.herokuapp.com/" target="_blank"> <i class="fal fa-external-link"></i></a></span>    
+                    <div class="image-caption">
+                        <h3 class="project-title">My Portfolio!</h3>
+                        <p class="project-description">Designed in Figma and coded in CSS3 and HTML. I have worked really closely to make this as beautiful as possible. It's open source as well !
+                        </p>
+                        
                     </div>
-                </div>
-            </div>
-            <!-- Card 5 -->
-            <div class="card">
-                <div class="image-container-card">
-                    <img src="assets/img/ProjectThumbnails/project 2.jpg" alt="">
-                </div>
-                <div class="image-caption">
-                    <h3 class="project-title">Forcast Pro.</h3>
-                    <p class="project-description">JavaScript application which reports local temperature in Celsius as well as in fahrenheit. OpenWeatherAPI used to data.</p>
                     <div class="buttons">
-                        <span><a href="https://projects-js.netlify.app/weather/index.html" target="_blank"><i class="fab fa-github"></i></a></span>
-                        <span><a href="https://projects-js.netlify.app/weather/index.html" target="_blank"> <i class="fal fa-external-link"></i></a></span>    
+                        <span><a href="https://github.com/OmkarK45/portfolio-v4" target="_blank"><i class="fab fa-github"></i></a></span>
+                        <span><a href="https://omkarkulkarni.netlify.app" target="_blank"><i class="fal fa-external-link"></i></a></span>    
                     </div>
                 </div>
             </div>
         </div>
+          
+          <div id="personal" class="box" style="display:none">
+            <div class="project-container">            
+                <!-- Card-1 -->
+                <div class="card" style="align-self: flex-start;">
+                    <div class="image-container-card">
+                        <img src="assets/img/ProjectThumbnails/semi1.jpg" alt="">
+                    </div>
+                    <div class="image-caption">
+                        <h3 class="project-title">SemiColon.</h3>
+                        <p class="project-description">Beautiful blog application with markdown support and superfast loading! Written in ReactJS with Chakra-UI and Node-Express API
+                        </p>
+                        
+                    </div>
+                    <div class="buttons">
+                        <span><a href="https://github.com/OmkarK45/blog-app" target="_blank"><i class="fab fa-github"></i></a></span>
+                        <span><a href="https://semicolon-blog.netlify.app/" target="_blank"><i class="fal fa-external-link"></i></a></span>    
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="image-container-card">
+                        <img src="assets/img/ProjectThumbnails/tw1.jpg" alt="">
+                    </div>
+                    <div class="image-caption">
+                        <h3 class="project-title">InTask.</h3>
+                        <p class="project-description">List down your important work and track it in intask. Project is under construction! Written in Express, EJS and Node with MongoDB.</p>
+                        <div class="buttons">
+                            <span><a href="https://github.com/OmkarK45/TaskWise-Get-work-done" target="_blank"><i class="fab fa-github"></i></a></span>
+                            <span><a href="https://taskwise.herokuapp.com/" target="_blank"> <i class="fal fa-external-link"></i></a></span>    
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="image-container-card">
+                        <img src="assets/img/ProjectThumbnails/typer.jpg" alt="">
+                    </div>
+                    <div class="image-caption">
+                        <h3 class="project-title">TypR.</h3>
+                        <p class="project-description">Find your typing speed. Typer is built using JavaScript w/ Option to share your score on social media. </p>
+                        <div class="buttons">
+                            <span><a href="https://github.com/OmkarK45/JavaScript-Projects/tree/master/TypeR" target="_blank"><i class="fab fa-github"></i></a></span>
+                            <span><a href="https://projects-js.netlify.app/typer/" target="_blank"> <i class="fal fa-external-link"></i></a></span>    
+                        </div>
+                    </div>
+                </div>
+                <!-- Card -4 -->
+                <div class="card" style="align-self: flex-start;">
+                    <div class="image-container-card">
+                        <img src="assets/img/ProjectThumbnails/project 3.jpg" alt="">
+                    </div>
+                    <div class="image-caption">
+                        <h3 class="project-title">COVID-19 Tracker.</h3>
+                        <p class="project-description">Realtime dashboard showing number of patients affected by CoronaVirus. Updates hourly ! Built with JavaScript, Bootstrap 4 and COVID-19 API</p>
+                       
+                    </div>
+                    <div class="buttons">
+                        <span><a href="https://github.com/OmkarK45/covid19dashboard"><i class="fab fa-github"></i></a></span>
+                        <span><a href="https://dashcovid19.netlify.app/"><i class="fal fa-external-link"></i></a></span>    
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container-card">
+                        <img src="assets/img/ProjectThumbnails/project 1.jpg" alt="">
+                    </div>
+                    <div class="image-caption">
+                        <h3 class="project-title">CampeR.</h3>
+                        <p class="project-description">Find and Explore different camping sites near you. Just signup and you are good to go ! Made with NodeJS, MongoDB and Passport</p>
+                        <div class="buttons">
+                            <span><a href="http://yelpcamp-india2020.herokuapp.com/" target="_blank"> <i class="fal fa-external-link"></i></a></span>    
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="card">
+                    <div class="image-container-card">
+                        <img src="assets/img/ProjectThumbnails/project 2.jpg" alt="">
+                    </div>
+                    <div class="image-caption">
+                        <h3 class="project-title">Forcast Pro.</h3>
+                        <p class="project-description">JavaScript application which reports local temperature in Celsius as well as in fahrenheit. OpenWeatherAPI used to data.</p>
+                        <div class="buttons">
+                            <span><a href="https://projects-js.netlify.app/weather/index.html" target="_blank"><i class="fab fa-github"></i></a></span>
+                            <span><a href="https://projects-js.netlify.app/weather/index.html" target="_blank"> <i class="fal fa-external-link"></i></a></span>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+       
     </section>
     <!-- What I Do Section -->
     <section class="section4">
