@@ -307,6 +307,39 @@
   font-size: 2.5rem;
 }
 
+.w3-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-small {
+  margin: 0 1rem;
+  padding: 0.7rem 1.3rem;
+  font-size: 1rem;
+  background-color: #e73c7e;
+  font-size: 1.3rem;
+  border-radius: 42px;
+  font-family: "Geomanist", sans-serif;
+  color: white;
+  border: none;
+  font-weight: 500;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  -webkit-box-shadow: 0 3px 0 rgba(84, 94, 111, 0.2);
+          box-shadow: 0 3px 0 rgba(84, 94, 111, 0.2);
+}
+
+.btn-small:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
 /*Section 2 : About Me*/
 /*Color #131231*/
 .section-2 {
