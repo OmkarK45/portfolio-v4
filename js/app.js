@@ -15,15 +15,6 @@ navLink.forEach((item) => {
   });
 });
 
-const sendMail = () => {
-  var link =
-    "mailto:omkar.webdev@gmail.com" +
-    "&subject=" +
-    encodeURIComponent("This is my subject") +
-    "&body=" +
-    encodeURIComponent(document.getElementById("textarea").value);
-  window.location.href = link;
-};
 
 const switchTab = (tab) => {
   var i;
